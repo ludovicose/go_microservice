@@ -1,5 +1,9 @@
 package main
 
+import "fmt"
+
+var appName = "accountservice"
+
 func main() {
-	$END$
+	fmt.Println(appName)
 }
